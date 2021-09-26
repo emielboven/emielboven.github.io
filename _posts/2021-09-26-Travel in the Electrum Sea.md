@@ -10,8 +10,7 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 How does it even work? That is the question you are probably asking yourself.
 
 
-| deed  | ded | dede | eed    | ed  |
-|-------|-----|------|--------|-----|
-| deded | ede | eded | e      | ede |
-| ede   | ded | ed   | ededed | ded |
-| ede   | ded | eded | eded   | de  |
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
