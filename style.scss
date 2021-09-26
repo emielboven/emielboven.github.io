@@ -116,19 +116,34 @@ img {
 }
 
 table {
-  width: 100%;
+width: 90%;
+font-size: 90%;
+margin-left: auto;
+margin-right: auto;
 }
-table, th, td {
-  border: 1px solid black;
-  font-size: 50%;
+
+th, td {
+padding: 10px;
 }
+th {
+  font-weight: bold;
+  border: 2px solid $darkerGray;
+  border-style: none none solid none;
+}
+
+td {
+  border: 1px solid $darkerGray;
+  border-style: solid none none none;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 .date {
   font-style: italic;
   color: $gray;
-  font-size: 50%;
+  padding-top: 10px;
+  font-size: 90%;
 }
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
