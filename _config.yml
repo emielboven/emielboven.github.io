@@ -22,6 +22,11 @@ exclude:
   - LICENSE.md
   - README.md
 
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
 sass:
   sass_dir: _sass
   style: :compressed
