@@ -115,6 +115,10 @@ img {
   max-width: none;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 .date {
   font-style: italic;
   color: $gray;
