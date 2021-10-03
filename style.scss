@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,8 +19,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $robotoSlab;
+  background: $white;
+  font: 18px/1.6 $commissioner;
   color: $darkGray;
 }
 
@@ -30,10 +31,14 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $robotoSlab;
-  color: $darkerGray;
-  font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $bagnard;
+  color: $darkGray;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -46,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  letter-spacing: 0.4px;
   a {
     color: inherit;
   }
@@ -69,15 +75,17 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $gold;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    color: $electrum;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -90,19 +98,25 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -116,14 +130,15 @@ img {
 }
 
 table {
-width: 90%;
-font-size: 90%;
-margin-left: auto;
-margin-right: auto;
+  width: 90%;
+  font-size: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-th, td {
-padding: 10px;
+th,
+td {
+  padding: 10px;
 }
 th {
   font-weight: bold;
@@ -136,11 +151,40 @@ td {
   border-style: solid none none none;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.PageNavigation {
+  margin: 1em 0;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  font-size: 90%;
+}
+
+.previous {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 0.5em 0;
+}
+
+.next {
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: right;
+  margin: 0.5em 0;
+}
+
+.line {
+  margin: 1em;
+  border-top: 1px solid $lightGray;
+}
 
 .date {
-  font-style: italic;
-  color: $gray;
+  color: $mediumGray;
   padding-top: 10px;
   font-size: 90%;
 }
@@ -158,12 +202,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -205,7 +249,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 }
 
 .site-info {
-  float: left;
+  float: center;
 
   @include mobile {
     float: none;
@@ -218,16 +262,24 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $robotoSlab;
+  font-family: $bluu;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 46px;
   letter-spacing: 1px;
+  text-align: center;
+}
+.site-title, .page-title {
+  &:hover,
+  &:active {
+    color: $gray;
+  }
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $mediumGray;
   font-size: 16px;
+  text-align: center;
 
   @include mobile {
     margin: 3px 0;
@@ -235,28 +287,30 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $robotoSlab;
   font-size: 18px;
+  width: 100%;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 50px;
 
   @include mobile {
-    float: none;
     margin-top: 9px;
-    display: block;
     font-size: 16px;
+    text-align: center;
   }
 
+
   a {
-    margin-left: 20px;
     color: $darkGray;
-    text-align: right;
-    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
     letter-spacing: 1px;
+    font-family: $bluu;
 
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+      color: $gold;
+      display: block;
     }
   }
 }
@@ -277,8 +331,9 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    font-family: $commissionerLight;
+    margin: 1.8em 0.8em;
+    border-left: 6px solid $darkGray;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
@@ -306,6 +361,10 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+footer i{
+  border: 5px solid transparent;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

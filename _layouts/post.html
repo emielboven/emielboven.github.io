@@ -9,10 +9,25 @@ published: true
   <div class="entry">
     {{ content }}
   </div>
-	<p></p>
+  <p></p>
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
+  <div class="line"></div>
+  <div class="PageNavigation">
+    
+    <div class="previous">
+    {% if page.previous.url %}
+      <h4>Previous:</h4>
+      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    </div>
+    <div class="next">
+    {% if page.next.url %}
+      <h4>Next:</h4>
+      <a class="nxt" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+    </div>
+  </div>
   {% include disqus.html %}
 </article>
