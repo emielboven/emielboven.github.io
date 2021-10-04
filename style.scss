@@ -158,20 +158,38 @@ tr:nth-child(even) {
 .post-header {
   display: inline-block;
   width:100%;
+  @include mobile {
+    display: block;
+  }
   
   & h1{
     float:left;
     width:100%;
     max-width:340px;
     margin-top: 20px;
+    @include mobile {
+      display: block;
+      float: none;
+      max-width:99%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   & img{
     float:inline-end;
+    width:100%;
     max-width:340px;
     max-height: 170px;
     height: auto;
     width: auto;
     margin-top: 20px;
+    @include mobile {
+      display: block;
+      float: none;
+      max-width:99%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
