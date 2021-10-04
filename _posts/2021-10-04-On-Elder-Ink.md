@@ -21,4 +21,4 @@ The ink is innately magical and can be used in a variety of magical processes:
 * **Blackveins** - Some among the ultra rich undergo a risky procedure to become what is known as a blackvein. The procedure involves draining their body of its blood while simultaneously filling it with elder ink. The ink regenerates the blackvein's body, extends their lifespan and amplifies their magical powers. A blackvein's skin becomes a gray caricature of its former color while their lips and the white of their eyes turn black.
 
 ## Ink instead of Gold in DURF
->For simplicity sake a single in crystal encased ink drop (ID) is roughly the same value as a gold pound (GP) in DURF. So the the same rules apply for gaining HD and buying *Supply* etc. 
+For simplicity sake a single in crystal encased ink drop (ID) is roughly the same value as a gold pound (GP) in DURF. So the the same rules apply for gaining HD and buying *Supply* etc. 
