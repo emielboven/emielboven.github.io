@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+The Electrum Archive is a place where I share bits and pieces of my campaign setting **the Electrum Sea**. 
 
-### More Information
+It is where I'll just dump ideas that I have bouncing around in my head and want to collect somewhere, instead of them withering away in my notes app.
 
-A place to include any other types of information that you'd like to include about yourself.
+Most of the ideas here will be written for use with [DURF](https://emielboven.itch.io/durf), but since it shares a lot of DNA with other OSR games you'll probably be able to salvage most of these writings for use with a different system.
 
-### Contact me
+---
 
-[email@domain.com](mailto:email@domain.com)
+### You can also find to me here:
+
+Twitter - [@emielboven ]( https://www.twitter.com/{{ site.footer-links.twitter }})
+
+Itch.io - [emielboven]( https://{{ site.footer-links.youtube }}.itch.io/)

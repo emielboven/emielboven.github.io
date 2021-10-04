@@ -155,6 +155,26 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
+.post-header {
+  display: inline-block;
+  width:100%;
+  
+  & h1{
+    float:left;
+    width:100%;
+    max-width:340px;
+    margin-top: 20px;
+  }
+  & img{
+    float:inline-end;
+    max-width:340px;
+    max-height: 170px;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+}
+
 .PageNavigation {
   margin: 1em 0;
   display: block;
@@ -350,6 +370,14 @@ nav {
   }
 }
 
+.latest-posts {
+  font-size: 90%;
+  margin: 0 auto;
+  width: 370px;
+  & h4 {
+    text-align: center;
+  }
+}
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -365,6 +393,12 @@ footer i{
   border: 5px solid transparent;
 }
 
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0px solid transparent;
+  border-top: 3px dotted $mediumGray;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
