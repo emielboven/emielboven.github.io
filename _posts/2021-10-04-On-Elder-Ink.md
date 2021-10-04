@@ -12,7 +12,7 @@ Elder ink is used as the main form of currency in the Electrum Sea. Drops of ink
 The method to create elder ink was lost when the Elders fell from the heavens. Now, new ink only enters the economy when it is found by ink seekers, the desperate people exploring the lost places beneath the dunes hoping to uncover what is left behind by the Elders.
 
 ### What makes elder ink so special
-The ink is innately magical and can be used in a variety of magical processes:
+The ink is innately magical and can be used in a variety of magical processes, including but not limited to:
 
 * **Spellcasting** - The ink can be used to craft spell scrolls and magic users in the Electrum Sea tattoo themselves with it. These tatoos allow them to cast spells without the use of a spell scroll. The designs of these tatoos often resemble the spell's effect. For example, a man with a tatoo of an eye on his forehead might be able to use a spell to see the future.
 
