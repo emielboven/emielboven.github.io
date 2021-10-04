@@ -5,7 +5,7 @@ title: On Elder Ink
 
 The Electrum Sea covers a large swath of the world of Orn. Despite it's name, the Sea is not a large body of water but an expansive desert. The sands that make up it's dunes consist for a large part of electrum particles. Noone knows exactly how the silver and gold alloy became part of the desert sands but its abundance has made the material almost worthless to the inhabitants of the Sea.
 
-On Orn gold is not the coveted substance it is on other worlds. Here, the pauper dreams of a liquid, black as a starless night. The dreams of gods distilled into an oily black ink known as elder ink.
+On Orn, gold is not the coveted substance it is on other worlds. Here, the pauper dreams of a liquid, black as a starless night. The dreams of gods distilled into an oily black ink known as elder ink.
 
 Elder ink is used as the main form of currency in the Electrum Sea. Drops of ink encased in crystal spheres are used for most transactions. Larger sums might be payed using vials or small electrum drums that protect it from evaporating.
 
