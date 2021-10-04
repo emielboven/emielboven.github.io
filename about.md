@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The Electrum Archive is a place where I share bits and pieces of my campaign setting **the Electrum Sea**. 
+The Electrum Archive is a place where I share bits and pieces of my adventure setting **the Electrum Sea**. 
 
 It is where I'll just dump ideas that I have bouncing around in my head and want to collect somewhere, instead of them withering away in my notes app.
 
