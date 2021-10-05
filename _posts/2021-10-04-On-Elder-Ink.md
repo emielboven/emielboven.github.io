@@ -3,7 +3,7 @@ layout: post
 title: On Elder Ink
 ---
 
-The Electrum Sea covers a large swath of the world of Orn. Despite its name, the Sea is not a large body of water but an expansive desert. The sands that make up its dunes consists largely of electrum particles. No one knows exactly how the silver and gold alloy became part of the desert sands but its abundance has made the material almost worthless to the inhabitants of the Sea.
+The Electrum Sea covers a large swath of the world of Orn. Despite its name, the Sea is not a large body of water but an expansive desert. The sands that make up its dunes consist largely of electrum particles. No one knows exactly how the silver and gold alloy became part of the desert sands but its abundance has made the material almost worthless to the inhabitants of the Sea.
 
 On Orn, gold is not the coveted substance it is on other worlds. Here, the pauper dreams of a liquid, black as a starless night. The power of gods, distilled into an oily black ink known as **Elder Ink**.
 
