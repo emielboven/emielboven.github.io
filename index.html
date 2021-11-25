@@ -1,8 +1,28 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!--
+---
+layout: default
+---
 
-<img src="welcome.png">
+<div class="posts">
+  {% for post in site.posts %}
+  <article class="post">
+    <div class="post-header">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}" class="page-title">{{ post.title }}</a></h1>
+    {% if post.related_image %}
+    <img src="{{ post.related_image }}" alt="" class="preview-image">
+    {% endif %}
+    </div>
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
 
-</body>
-</html> 
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+  {% endfor %}
+</div>
+-->
+<img src="welcome.png" width="1200" style="  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;">
+<h2>Twitter</h2>
